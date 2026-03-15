@@ -27,7 +27,7 @@ const resources = [
   },
   {
     title: "Secular Buddhist Network article, v. 2",
-    description: "Originally published on the SBN website",
+    description: "Explains how these teachings differ from other forms of Secular Buddhism",
     icon: Globe,
     url: "https://drive.google.com/file/d/1cb2xofZI_IoETYXoPyzAZAUNh1V1JQC7/view?usp=drive_link",
   },
