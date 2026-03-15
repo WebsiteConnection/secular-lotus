@@ -13,9 +13,9 @@ const HeroSectionJa = () => {
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
         <h1 className="font-heading text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight">
-          世俗仏教
+          世俗法華
           <span className="block text-3xl md:text-4xl font-light mt-2 italic opacity-90">
-            法華経の伝統において
+            ロータス伝統における世俗仏教
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
