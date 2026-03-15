@@ -9,7 +9,7 @@ const resources = [
   },
   {
     title: "An Ultimate from Immanence",
-    description: "Explore how the Lotus Sutra can be embraced without mysticism",
+    description: "Read the latest version of the original journal article",
     icon: BookOpen,
     url: "https://drive.google.com/file/d/1M2Kc9GLZWDJmpXlAOyyQ9h-qNlEe-tnY/view?usp=drive_link",
   },
