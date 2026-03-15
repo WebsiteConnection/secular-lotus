@@ -33,7 +33,7 @@ const resources = [
   },
   {
     title: "Grawemeyer Award nomination",
-    description: "Recognition for contributions to religious thought",
+    description: "Recommended for contributions to religious thought",
     icon: Award,
     url: "https://drive.google.com/file/d/13UiGjXitxICfhJoHzKUo-LTWgTzaQOEn/view?usp=drive_link",
   },
