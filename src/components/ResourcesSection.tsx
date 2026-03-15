@@ -3,7 +3,7 @@ import { FileText, Play, BookOpen, Heart, Globe, Award } from "lucide-react";
 const resources = [
   {
     title: "A brief introductory video",
-    description: "Watch a short overview of Secular Buddhism in the Lotus Tradition",
+    description: "Watch an eight-minute slide presentation on the teachings introduced in the original journal article",
     icon: Play,
     url: "https://drive.google.com/file/d/18NtS37Qcz4Xy9fScUj4Qsv80Kzjr_Wgz/view?usp=drive_link",
   },
