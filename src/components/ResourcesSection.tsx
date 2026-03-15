@@ -21,7 +21,7 @@ const resources = [
   },
   {
     title: "Secular Prayers",
-    description: "Contemplative prayers grounded in natural understanding",
+    description: "Consider how traditional prayers can be adapted for a secular worldview",
     icon: Heart,
     url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link",
   },
