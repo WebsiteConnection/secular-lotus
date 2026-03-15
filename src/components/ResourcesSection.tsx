@@ -27,7 +27,7 @@ const resources = [
   },
   {
     title: "Secular Buddhist Network article",
-    description: "Published article on the Secular Buddhist Network",
+    description: "Originally published on the SBN website",
     icon: Globe,
     url: "https://drive.google.com/file/d/1cb2xofZI_IoETYXoPyzAZAUNh1V1JQC7/view?usp=drive_link",
   },
