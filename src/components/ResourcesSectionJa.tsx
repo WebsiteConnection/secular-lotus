@@ -44,7 +44,7 @@ const ResourcesSectionJa = () => {
               href={resource.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-start gap-4 p-6 rounded-lg bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300"
+              className="group flex items-start gap-4 p-6 rounded-lg bg-card border border-border hover:border-primary/30 hover:shadow-md transition-all duration-300 h-full"
             >
               <div className="flex-shrink-0 w-10 h-10 rounded-full bg-secondary flex items-center justify-center group-hover:bg-primary/10 transition-colors">
                 <resource.icon className="w-5 h-5 text-primary" />
