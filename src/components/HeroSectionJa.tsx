@@ -19,7 +19,7 @@ const HeroSectionJa = () => {
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="font-body text-lg md:text-xl text-primary-foreground/85 font-light leading-relaxed max-w-xl mx-auto">
+        <p className="font-body text-primary-foreground/85 font-light leading-relaxed max-w-xl mx-auto" style={{ fontSize: '1.2rem', textShadow: '0px 2px 4px rgba(0,0,0,0.3)' }}>
           超自然の真実から自然の秩序に根ざした普遍的な倫理への架け橋。
         </p>
       </div>

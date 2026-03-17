@@ -13,8 +13,8 @@ export default {
       },
     },
     fontFamily: {
-      heading: ['Cormorant Garamond', 'serif'],
-      body: ['Source Sans 3', 'sans-serif'],
+      heading: ['Noto Sans JP', 'sans-serif'],
+      body: ['Noto Sans JP', 'sans-serif'],
     },
     extend: {
       colors: {
