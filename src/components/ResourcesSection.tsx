@@ -2,26 +2,26 @@ import { BookOpen, Heart, Globe, Award } from "lucide-react";
 
 const resources = [
   {
-    title: "内在からの究極",
-    description: "オリジナルのジャーナル記事の最新版をお読みいただけます。",
+    title: "The Ultimate from Immanence",
+    description: "Read the latest version of the original journal article.",
     icon: BookOpen,
     url: "https://drive.google.com/file/d/1M2Kc9GLZWDJmpXlAOyyQ9h-qNlEe-tnY/view?usp=drive_link",
   },
   {
-    title: "世俗的な祈り",
-    description: "伝統的な祈りを世俗的な世界観に合わせてどのように適応させるかを考察します。",
+    title: "Secular Prayers",
+    description: "An exploration of how traditional prayers can be adapted to a secular worldview.",
     icon: Heart,
     url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link",
   },
   {
-    title: "セキュラー仏教ネットワークの記事",
-    description: "これらの教えが、他の形態のセキュラー仏教とどのように異なるかに焦点を当てています。",
+    title: "Secular Buddhist Network article",
+    description: "Focused on how these teachings differ from other forms of Secular Buddhism.",
     icon: Globe,
     url: "https://drive.google.com/file/d/1cb2xofZI_IoETYXoPyzAZAUNh1V1JQC7/view?usp=drive_link",
   },
   {
-    title: "グロマイヤー賞ノミネート",
-    description: "宗教思想への貢献により推薦されました。",
+    title: "Grawemeyer Award Nomination",
+    description: "Nominated for contributions to religious thought.",
     icon: Award,
     url: "https://drive.google.com/file/d/13UiGjXitxICfhJoHzKUo-LTWgTzaQOEn/view?usp=drive_link",
   },
@@ -32,10 +32,10 @@ const ResourcesSection = () => {
     <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
-          教えを深める
+          Explore the Teaching
         </h2>
         <p className="font-body text-muted-foreground text-center mb-14 max-w-lg mx-auto">
-          以下のコンテンツでは、神秘主義を排除した法華経の受け入れ方について解説しています。
+          The content below explores an approach to the Lotus Sutra stripped of mysticism.
         </p>
         <div className="grid gap-4 md:grid-cols-2">
           {resources.map((resource) => (
