@@ -29,12 +29,12 @@ const resources = [
 
 const ResourcesSectionJa = () => {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
+        <h2 className="text-3xl md:text-4xl font-light text-center mb-4" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
           教えを深める
         </h2>
-        <p className="font-body text-muted-foreground text-center mb-14 max-w-lg mx-auto">
+        <p className="text-muted-foreground text-center mb-14 max-w-lg mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
           以下のコンテンツでは、神秘主義を排除した法華経の受け入れ方について解説しています。
         </p>
         <div className="grid gap-4 md:grid-cols-2">
@@ -50,10 +50,10 @@ const ResourcesSectionJa = () => {
                 <resource.icon className="w-5 h-5 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading text-lg font-medium mb-1 group-hover:text-primary transition-colors">
+                <h3 className="text-lg font-medium mb-1 group-hover:text-primary transition-colors" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
                   {resource.title}
                 </h3>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
                   {resource.description}
                 </p>
               </div>

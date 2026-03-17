@@ -11,15 +11,15 @@ const HeroSectionJa = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
       </div>
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
-        <h1 className="font-heading text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight">
+      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
+        <h1 className="text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
           世俗法華
-          <span className="block text-3xl md:text-4xl font-light mt-2 italic opacity-90">
+          <span className="block font-light mt-2 italic opacity-90" style={{ fontSize: '1.2rem', fontFamily: "'Noto Sans JP', sans-serif" }}>
             ロータス伝統における世俗仏教
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="font-body text-lg md:text-xl text-primary-foreground/85 font-light leading-relaxed max-w-xl mx-auto">
+        <p className="font-light leading-relaxed max-w-xl mx-auto text-primary-foreground/85" style={{ fontSize: '1.2rem', fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.3)' }}>
           超自然の真実から自然の秩序に根ざした普遍的な倫理への架け橋。
         </p>
       </div>
