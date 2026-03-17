@@ -1,8 +1,16 @@
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-lotus.jpg";
 
 const HeroSectionJa = () => {
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+      <Link
+        to="/"
+        className="absolute top-5 right-6 z-20 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
+        style={{ fontFamily: "'Source Sans 3', sans-serif" }}
+      >
+        English
+      </Link>
       <div className="absolute inset-0">
         <img
           src={heroImage}
