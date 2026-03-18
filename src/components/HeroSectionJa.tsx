@@ -21,9 +21,9 @@ const HeroSectionJa = () => {
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
         <h1 className="text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
-          世俗法華
+          セキュラー仏教
           <span className="block font-light mt-2 italic opacity-90" style={{ fontSize: '1.2rem', fontFamily: "'Noto Sans JP', sans-serif" }}>
-            ロータス伝統における世俗仏教
+            — 法華の伝統とともに —
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
