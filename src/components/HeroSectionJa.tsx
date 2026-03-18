@@ -23,7 +23,7 @@ const HeroSectionJa = () => {
         <h1 className="text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
           セキュラー仏教
           <span className="block font-light mt-2 italic opacity-90" style={{ fontSize: '1.875rem', fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
-            — 法華の伝統とともに —
+            法華の伝統とともに
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
