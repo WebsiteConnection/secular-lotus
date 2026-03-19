@@ -24,9 +24,9 @@ const HeroSectionJa = () => {
           className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap"
           style={{
             fontFamily: "'Noto Sans JP', sans-serif",
-            fontSize: 'var(--ja-title-size)',
-          } as React.CSSProperties}
-        >
+            fontSize: 'var(--ja-title-size)'
+          } as React.CSSProperties}>
+          
           <style>{`
             :root {
               --ja-title-size: 2.5rem;
@@ -43,9 +43,9 @@ const HeroSectionJa = () => {
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
               fontSize: 'calc(var(--ja-title-size) - 3px)',
-              textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
-            }}
-          >
+              textShadow: '0px 2px 4px rgba(0,0,0,0.4)'
+            }}>
+            
             未来のための仏教
           </span>
         </h1>
