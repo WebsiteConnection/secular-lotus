@@ -42,7 +42,7 @@ const HeroSectionJa = () => {
             className="block font-light mt-2 whitespace-nowrap opacity-100"
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
-              fontSize: 'calc(var(--ja-title-size) - 2px)',
+              fontSize: 'calc(var(--ja-title-size) - 3px)',
               textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
             }}
           >
