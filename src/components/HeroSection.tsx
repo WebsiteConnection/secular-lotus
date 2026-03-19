@@ -6,32 +6,32 @@ const HeroSection = () => {
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
       <Link
         to="/ja"
-        className="absolute top-5 right-6 z-20 font-body text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
-      >
+        className="absolute top-5 right-6 z-20 font-body text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide">
+        
         日本語
       </Link>
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="Lotus flower floating serenely on still water at dawn"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
+          className="w-full h-full object-cover" />
+        
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background font-light" />
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
         <h1 className="font-heading text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight">
           Secular Buddhism
-          <span className="block text-3xl md:text-4xl font-light mt-2 italic opacity-90">
+          <span className="block text-3xl font-light mt-2 italic opacity-90 md:text-5xl">
             in the Lotus Tradition
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="font-body text-lg md:text-xl text-primary-foreground/85 font-light leading-relaxed max-w-xl mx-auto">
+        <p className="font-body text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto md:text-2xl font-medium">
           A bridge from supernatural truth to a universal ethic grounded in the natural order.
         </p>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
