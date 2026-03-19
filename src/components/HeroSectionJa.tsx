@@ -27,7 +27,7 @@ const HeroSectionJa = () => {
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/85 text-4xl font-normal" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
+        <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/85 font-normal text-3xl" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
           超自然の真実から、自然の理に根ざした道徳へ。
         </p>
       </div>
