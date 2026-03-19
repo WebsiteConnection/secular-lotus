@@ -22,7 +22,7 @@ const HeroSectionJa = () => {
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
         <h1 className="text-[2.5rem] md:text-7xl font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
           法華経に基づいて
-          <span className="block font-light mt-2 italic whitespace-nowrap opacity-100 text-6xl" style={{ fontSize: 'clamp(1.4rem, 4vw, 1.875rem)', fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
+          <span className="block font-light mt-2 italic whitespace-nowrap opacity-100 text-6xl" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
             未来のための仏教
           </span>
         </h1>
