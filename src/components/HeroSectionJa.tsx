@@ -21,7 +21,7 @@ const HeroSectionJa = () => {
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
         <h1
-          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap text-7xl"
+          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap text-8xl"
           style={{
             fontFamily: "'Noto Sans JP', sans-serif",
             fontSize: 'var(--ja-title-size)'
