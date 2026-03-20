@@ -39,7 +39,7 @@ const HeroSectionJa = () => {
           `}</style>
           慈智仏教
           <span
-            className="block font-light mt-2 whitespace-nowrap opacity-100 text-5xl"
+            className="block font-light mt-2 whitespace-nowrap opacity-100 text-4xl"
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
               fontSize: 'calc(var(--ja-title-size) - 3px)',
