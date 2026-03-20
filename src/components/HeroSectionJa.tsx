@@ -39,7 +39,7 @@ const HeroSectionJa = () => {
           `}</style>
           慈智仏教
           <span
-            className="block font-light mt-2 whitespace-nowrap opacity-100 text-4xl"
+            className="block font-light mt-2 whitespace-nowrap opacity-100 text-5xl"
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
               fontSize: 'calc(var(--ja-title-size) - 3px)',
@@ -49,7 +49,7 @@ const HeroSectionJa = () => {
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/85 text-4xl font-light" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
+        <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/85 text-4xl font-light shadow-none" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
           「妙法」は、実存の智慧と慈悲へ。
         </p>
       </div>
