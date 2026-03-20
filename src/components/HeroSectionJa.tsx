@@ -37,7 +37,7 @@ const HeroSectionJa = () => {
               }
             }
           `}</style>
-          法華経に基づいて
+          慈智仏教
           <span
             className="block font-light mt-2 whitespace-nowrap opacity-100"
             style={{
@@ -45,13 +45,12 @@ const HeroSectionJa = () => {
               fontSize: 'calc(var(--ja-title-size) - 3px)',
               textShadow: '0px 2px 4px rgba(0,0,0,0.4)'
             }}>
-            
-            未来のための仏教
+            法華経の現代的解釈
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
         <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/85 text-2xl font-medium" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
-          超自然の真実から、自然の理に根ざした道徳へ。
+          「妙法」は、実存の智慧と慈悲へ。
         </p>
       </div>
     </section>);
