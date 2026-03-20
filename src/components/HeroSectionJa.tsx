@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-lotus.jpg";
 
+/** Edit all Japanese hero text in one place */
+const HERO_JA = {
+  title: "慈智仏教",
+  subtitle: "法華経の現代的解釈",
+  tagline: "「妙法」は、実存の智慧と慈悲へ。",
+  heroAlt: "夜明けの静かな水面に浮かぶ蓮の花",
+} as const;
+
 const HeroSectionJa = () => {
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
