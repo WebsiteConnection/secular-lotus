@@ -21,7 +21,7 @@ const HeroSectionJa = () => {
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
         <h1
-          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap"
+          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap text-7xl"
           style={{
             fontFamily: "'Noto Sans JP', sans-serif",
             fontSize: 'var(--ja-title-size)'
@@ -39,7 +39,7 @@ const HeroSectionJa = () => {
           `}</style>
           慈智仏教
           <span
-            className="block font-light mt-2 whitespace-nowrap opacity-100"
+            className="block font-light mt-2 whitespace-nowrap opacity-100 text-4xl"
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
               fontSize: 'calc(var(--ja-title-size) - 3px)',
