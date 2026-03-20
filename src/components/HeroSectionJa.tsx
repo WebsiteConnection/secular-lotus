@@ -21,13 +21,28 @@ const HeroSectionJa = () => {
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
         <h1
-          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap text-4xl md:text-7xl"
-          style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
+          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap text-7xl"
+          style={{
+            fontFamily: "'Noto Sans JP', sans-serif",
+            fontSize: 'var(--ja-title-size)'
+          } as React.CSSProperties}>
+          
+          <style>{`
+            :root {
+              --ja-title-size: 2.5rem;
+            }
+            @media (min-width: 768px) {
+              :root {
+                --ja-title-size: 4.5rem;
+              }
+            }
+          `}</style>
           慈智仏教
           <span
-            className="block font-light mt-2 whitespace-nowrap text-3xl md:text-6xl"
+            className="block font-light mt-2 whitespace-nowrap opacity-100 text-5xl"
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
+              fontSize: 'calc(var(--ja-title-size) - 3px)',
               textShadow: '0px 2px 4px rgba(0,0,0,0.4)'
             }}>
             法華経の現代的解釈
