@@ -22,7 +22,7 @@ const HeroSectionJa = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="夜明けの静かな水面に浮かぶ蓮の花"
+          alt={HERO_JA.heroAlt}
           className="w-full h-full object-cover" />
         
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
@@ -45,7 +45,7 @@ const HeroSectionJa = () => {
               }
             }
           `}</style>
-          慈智仏教
+          {HERO_JA.title}
           <span
             className="block font-light mt-2 whitespace-nowrap opacity-100 text-5xl"
             style={{
@@ -53,12 +53,12 @@ const HeroSectionJa = () => {
               fontSize: 'calc(var(--ja-title-size) - 3px)',
               textShadow: '0px 2px 4px rgba(0,0,0,0.4)'
             }}>
-            法華経の現代的解釈
+            {HERO_JA.subtitle}
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
         <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/85 text-4xl shadow-none font-normal" style={{ fontFamily: "'Noto Sans JP', sans-serif", textShadow: '0px 2px 4px rgba(0,0,0,0.4)' }}>
-          「妙法」は、実存の智慧と慈悲へ。
+          {HERO_JA.tagline}
         </p>
       </div>
     </section>);
