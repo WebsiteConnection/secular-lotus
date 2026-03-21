@@ -29,28 +29,32 @@ const HeroSectionJa = () => {
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ fontFamily: "'Noto Sans JP', sans-serif" }}>
         <h1
-          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 leading-tight whitespace-nowrap text-9xl"
+          className="font-light tracking-normal md:tracking-wide text-primary-foreground mb-6 text-9xl"
           style={{
             fontFamily: "'Noto Sans JP', sans-serif",
-            fontSize: 'var(--ja-title-size)'
+            fontSize: 'var(--ja-title-size)',
+            lineHeight: '1.2'
           } as React.CSSProperties}>
           
           <style>{`
             :root {
-              --ja-title-size: 2.5rem;
+              --ja-title-size: 2.2rem;
+              --ja-subtitle-size: 1.8rem;
             }
             @media (min-width: 768px) {
               :root {
-                --ja-title-size: 4.5rem;
+                --ja-title-size: 4rem;
+                --ja-subtitle-size: 2.5rem;
               }
             }
           `}</style>
           {HERO_JA.title}
           <span
-            className="block font-light mt-2 whitespace-nowrap opacity-100 text-5xl"
+            className="block font-light mt-2 opacity-100"
             style={{
               fontFamily: "'Noto Sans JP', sans-serif",
-              fontSize: 'calc(var(--ja-title-size) - 3px)',
+              fontSize: 'var(--ja-subtitle-size)',
+              lineHeight: '1.2',
               textShadow: '0px 2px 4px rgba(0,0,0,0.4)'
             }}>
             {HERO_JA.subtitle}
