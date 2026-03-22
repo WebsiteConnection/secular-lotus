@@ -26,7 +26,7 @@ const HeroSection = () => {
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="font-body text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto md:text-4xl font-medium">
+        <p className="text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto md:text-4xl font-medium font-[sans]">
           A morality grounded in immanence 
         </p>
       </div>
