@@ -22,7 +22,7 @@ const HeroSection = () => {
         <h1 className="font-heading text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight">
           Secular Buddhism
           <span className="block text-3xl font-light mt-2 italic opacity-90 md:text-5xl">
-            in the Lotus Tradition
+            in the Lotus Sutra Tradition
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
