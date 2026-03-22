@@ -26,7 +26,7 @@ const HeroSection = () => {
           </span>
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        <p className="font-body text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto md:text-2xl font-medium">
+        <p className="font-body text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto font-light md:text-3xl">
           A morality grounded in nature
         </p>
       </div>
