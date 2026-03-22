@@ -44,7 +44,7 @@ const ResourcesSection = () => {
     <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
-          Explore the Teaching
+          Explore the Teachings
         </h2>
         <p className="font-body text-muted-foreground text-center mb-14 max-w-lg mx-auto">
           ​
