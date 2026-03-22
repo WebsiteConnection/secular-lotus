@@ -27,7 +27,7 @@ const HeroSection = () => {
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
         <p className="font-body text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto md:text-2xl font-medium">
-          A bridge from supernatural truth to a universal ethic grounded in the natural order.
+          A bridge from a mystical truth to a morality grounded in the natural order.
         </p>
       </div>
     </section>);
