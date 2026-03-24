@@ -3,8 +3,10 @@ import heroImage from "@/assets/hero-lotus.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
-      {/* LANGUAGE TOGGLE: Pointing to your separate Japanese site */}
+    /* Responsive Height Fix: 75% on mobile (allows scroll hint) / 85% on desktop */
+    <section className="relative min-h-[75vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden py-12 md:py-0">
+      
+      {/* LANGUAGE TOGGLE: Pointing to your separate Japanese Vercel URL */}
       <a
         href="https://sezoku-hokke.vercel.app"
         className="absolute top-5 right-6 z-20 font-body text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
@@ -12,6 +14,7 @@ const HeroSection = () => {
         日本語
       </a>
 
+      {/* Background Image and Gradient Overlay */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
@@ -21,18 +24,51 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background font-light" />
       </div>
 
-      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
-        <h1 className="font-heading text-5xl md:text-7xl font-light tracking-wide text-primary-foreground mb-6 leading-tight">
+      {/* Content Container */}
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        <h1
+          className="font-heading font-light tracking-wide text-primary-foreground mb-6 leading-tight"
+          style={{
+            fontSize: 'var(--en-title-size)',
+          } as React.CSSProperties}>
+          
+          <style>{`
+            :root {
+              /* Mobile Font Sizes */
+              --en-title-size: 2.8rem;
+              --en-subtitle-size: 1.6rem;
+            }
+            @media (min-width: 768px) {
+              :root {
+                /* Desktop Font Sizes */
+                --en-title-size: 5rem;
+                --en-subtitle-size: 2.5rem;
+              }
+            }
+          `}</style>
+
           Secular Buddhism
-          <span className="block text-3xl font-light mt-2 italic opacity-90 md:text-5xl">
+          <span
+            className="block font-light mt-2 italic opacity-90"
+            style={{
+              fontSize: 'var(--en-subtitle-size)',
+              textShadow: '0px 2px 8px rgba(0,0,0,0.3)'
+            }}>
             in the Lotus Sutra Tradition
           </span>
         </h1>
-        
-        <div className="w-16 h-px bg-accent mx-auto mb-6" />
-        
-        <p className="text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto font-medium font-[sans] md:text-2xl shadow-none">
-          A contemporary teaching that replaces traditional Buddhist concepts with an affirmation of life.
+
+        {/* Decorative Accent Line */}
+        <div className="w-16 h-px bg-accent mx-auto mb-8" />
+
+        {/* Main Tagline */}
+        <p className="leading-relaxed max-w-3xl mx-auto text-primary-foreground/90 shadow-none font-medium font-[sans]" 
+           style={{ 
+             fontSize: '1.25rem', // Slightly smaller than JA as Latin chars are wider
+             textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
+             lineHeight: '1.6'
+           }}>
+          A contemporary teaching that replaces traditional Buddhist concepts with a direct affirmation of life.
         </p>
       </div>
     </section>
