@@ -27,7 +27,7 @@ const HeroSection = () => {
         </h1>
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
         <p className="text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto font-medium font-[sans] md:text-2xl shadow-none">
-          A morality inspired by the natural order    
+          A teaching that replaces traditional religious views like reincarnation, a Supreme Being, and prayers for the dead, functioning as a pure affirmation of life.   
         </p>
       </div>
     </section>);
