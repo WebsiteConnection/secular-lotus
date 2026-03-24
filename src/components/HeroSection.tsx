@@ -32,7 +32,7 @@ const HeroSection = () => {
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
         
         <p className="text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto font-medium font-[sans] md:text-2xl shadow-none">
-          A teaching that replaces traditional religious views such as reincarnation, a Supreme Being, and prayers for the dead, functioning as a pure affirmation of life.
+          A teaching that replaces traditional religious views with a pure affirmation of life.
         </p>
       </div>
     </section>
