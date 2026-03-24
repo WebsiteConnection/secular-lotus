@@ -32,7 +32,7 @@ const HeroSection = () => {
         <div className="w-16 h-px bg-accent mx-auto mb-6" />
         
         <p className="text-lg text-primary-foreground/85 leading-relaxed max-w-xl mx-auto font-medium font-[sans] md:text-2xl shadow-none">
-          A teaching that replaces traditional religious views with a pure affirmation of life.
+          A contemporary teaching that replaces traditional Buddhist concepts with an affirmation of life.
         </p>
       </div>
     </section>
