@@ -65,11 +65,9 @@ const HeroSection = () => {
              textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
              lineHeight: '1.6'
            }}>
-          A teaching that replaces traditional religious views 
+          A contemporary teaching that replaces traditional Buddhist concepts 
           <span className="hidden md:inline"><br /></span> {/* Forced break for desktop only */}
-          like reincarnation and a Supreme Being, functioning 
-          <span className="hidden md:inline"><br /></span> {/* Forced break for desktop only */}
-          as a pure affirmation of life.
+          with a direct affirmation of life.
         </p>
       </div>
     </section>
