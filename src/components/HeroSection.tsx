@@ -62,13 +62,12 @@ const HeroSection = () => {
         <div className="w-16 h-px bg-accent mx-auto mb-8" />
 
         {/* Main Tagline */}
-        <p className="leading-relaxed max-w-3xl mx-auto text-primary-foreground/90 shadow-none font-medium font-[sans]" 
-           style={{ 
-             fontSize: '1.25rem', // Slightly smaller than JA as Latin chars are wider
-             textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
-             lineHeight: '1.6'
-           }}>
-          A contemporary teaching that replaces traditional Buddhist concepts with a direct affirmation of life.
+        <p className="leading-relaxed max-w-2xl mx-auto text-primary-foreground/90 shadow-none font-medium font-[sans]" 
+   style={{ 
+     fontSize: '1.25rem', 
+     textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
+     lineHeight: '1.6'
+   }}>   A contemporary teaching that replaces traditional Buddhist concepts with a direct affirmation of life.
         </p>
       </div>
     </section>
