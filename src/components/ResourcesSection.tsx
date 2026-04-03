@@ -9,7 +9,7 @@ const resources = [
   },
   {
     title: "An Ultimate from Immanence",
-    description: "Read the 2026 version of the article published in 2024 by <i>The Indian International Journal of Buddhist Studies.</i>",
+    description: "Read the 2026 version of the article published in 2024 by <em>The Indian International Journal of Buddhist Studies.</em>",
     icon: BookOpen,
     url: "https://drive.google.com/file/d/1M2Kc9GLZWDJmpXlAOyyQ9h-qNlEe-tnY/view?usp=drive_link"
   },
