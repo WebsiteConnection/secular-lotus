@@ -48,7 +48,7 @@ const ResourcesSection = () => {
         </h2>
         {/* Filled in the subtitle with a meaningful summary */}
         <p className="font-body text-muted-foreground text-center mb-14 max-w-2xl mx-auto italic">
-          Research and resources redefining the Lotus Sutra for a secular world.
+          Information resources related to redefining the Lotus Sutra for a secular world.
         </p>
         
         <div className="grid gap-6 md:grid-cols-2"> {/* Increased gap for better readability */}
