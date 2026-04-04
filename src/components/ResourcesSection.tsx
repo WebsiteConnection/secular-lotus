@@ -3,13 +3,13 @@ import { FileText, Play, BookOpen, Heart, Globe, Award, Headphones } from "lucid
 const resources = [
   {
     title: "Introductory Video", // Simplified title
-    description: "Watch an eight-minute slide presentation introducing the teachings.",
+    description: "Watch an eight-minute slide presentation that briefly explains the teachings.",
     icon: Play,
     url: "https://drive.google.com/file/d/18NtS37Qcz4Xy9fScUj4Qsv80Kzjr_Wgz/view?usp=drive_link"
   },
   {
     title: "An Ultimate from Immanence",
-    description: "Read the latest version of the article first published by The Indian International Journal of Buddhist Studies in 2024.",
+    description: "Read the latest version of the journal article first published in 2024.",
     icon: BookOpen,
     url: "https://drive.google.com/file/d/1M2Kc9GLZWDJmpXlAOyyQ9h-qNlEe-tnY/view?usp=drive_link"
   },
