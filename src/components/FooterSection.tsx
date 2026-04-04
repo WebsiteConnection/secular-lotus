@@ -6,7 +6,7 @@ const FooterSection = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8">
           <a
-            href="/ja"
+            href="https://sezoku-hokke.vercel.app/"
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-body">
             
             <Globe className="w-4 h-4" />
