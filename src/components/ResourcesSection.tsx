@@ -15,7 +15,7 @@ const resources = [
   },
   {
     title: "Audio Narration",
-    description: "Listen to a reading of 'An Ultimate from Immanence.'",
+    description: "Listen to a reading of \"An Ultimate from Immanence.\"",
     icon: Headphones, // Changed icon to Headphones for clarity
     url: "https://drive.google.com/file/d/1tY41QAOXcn7ffA2SYXjuykRv1H3DSp36/view?usp=drive_link"
   },
