@@ -27,7 +27,7 @@ const resources = [
   },
   {
     title: "Secular Buddhist Network article",
-    description: "Focus on how these teachings differ from other forms of Secular Buddhism.",
+    description: "Focuses on how these teachings differ from other forms of Secular Buddhism.",
     icon: Globe,
     url: "https://drive.google.com/file/d/1cb2xofZI_IoETYXoPyzAZAUNh1V1JQC7/view?usp=drive_link"
   },
