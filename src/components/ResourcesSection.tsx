@@ -8,7 +8,7 @@ const resources = [
     url: "https://drive.google.com/file/d/18NtS37Qcz4Xy9fScUj4Qsv80Kzjr_Wgz/view?usp=drive_link"
   },
   {
-    title: "An Ultimate from Immanence",
+    title: "\"An Ultimate from Immanence\"",
     description: "Read the latest version of the journal article first published in 2024.",
     icon: BookOpen,
     url: "https://drive.google.com/file/d/1M2Kc9GLZWDJmpXlAOyyQ9h-qNlEe-tnY/view?usp=drive_link"
