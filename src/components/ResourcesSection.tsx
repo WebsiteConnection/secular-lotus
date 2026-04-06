@@ -46,11 +46,7 @@ const ResourcesSection = () => {
         <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
           Explore the Teachings
         </h2>
-        {/* Filled in the subtitle with a meaningful summary */}
-        <p className="font-body text-muted-foreground text-center mb-14 max-w-2xl mx-auto italic">
-          Information resources related to redefining the <em>Lotus Sūtra</em> for a secular world.
-        </p>
-        
+                
         <div className="grid gap-6 md:grid-cols-2"> {/* Increased gap for better readability */}
           {resources.map((resource) => (
             <a
