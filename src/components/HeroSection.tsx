@@ -65,7 +65,7 @@ const HeroSection = () => {
              textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
              lineHeight: '1.6'
            }}>
-          A contemporary teaching that replaces traditional Mahayana concepts 
+          A contemporary understanding that replaces traditional Buddhist concepts 
           <span className="hidden md:inline"><br /></span> {/* Forced break for desktop only */}
           with a direct affirmation of life.
         </p>
