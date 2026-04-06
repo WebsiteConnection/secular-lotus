@@ -3,7 +3,7 @@ import { FileText, Play, BookOpen, Heart, Globe, Award, Headphones } from "lucid
 const resources = [
   {
     title: "Introductory Video", // Simplified title
-    description: "Watch an eight-minute slide presentation summarizing the perspective.",
+    description: "Watch an eight-minute slide presentation about the perspective.",
     icon: Play,
     url: "https://drive.google.com/file/d/18NtS37Qcz4Xy9fScUj4Qsv80Kzjr_Wgz/view?usp=drive_link"
   },
