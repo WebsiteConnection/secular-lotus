@@ -21,7 +21,7 @@ const resources = [
   },
   {
     title: "Secular Prayers",
-    description: <>Consider how traditional liturgical practices based on the <em>Lotus Sūtra</em> can be adapted for a secular worldview.</>,
+    description: <>Consider how traditional liturgical practices can be adapted for a secular worldview.</>,
     icon: Heart,
     url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link"
   },
