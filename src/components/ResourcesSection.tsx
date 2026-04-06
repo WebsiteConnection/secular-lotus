@@ -46,7 +46,7 @@ const ResourcesSection = () => {
         <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
           Explore the Teachings
         </h2>
-                
+             <br></br>   
         <div className="grid gap-6 md:grid-cols-2"> {/* Increased gap for better readability */}
           {resources.map((resource) => (
             <a
