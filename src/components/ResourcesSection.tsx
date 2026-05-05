@@ -26,10 +26,10 @@ const resources = [
     url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link"
   },
   {
-    title: "Secular Buddhist Network Article",
+    title: "Audio Narration of an Article published by Secular Buddhist Network",
     description: "Focuses on how these teachings differ from other forms of Secular Buddhism.",
     icon: Globe,
-    url: "https://drive.google.com/file/d/1cb2xofZI_IoETYXoPyzAZAUNh1V1JQC7/view?usp=drive_link"
+    url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-a5cae3d4-1ce8-4676-9694-a326bc5e5d26"
   },
   {
     title: "Grawemeyer Nomination",
