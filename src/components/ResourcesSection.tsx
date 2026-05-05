@@ -27,7 +27,7 @@ const resources = [
   },
   {
     title: "Secular Buddhist Network Article",
-    description: "Narration explaining the differences with forms of Secular Buddhism.",
+    description: "Narration explaining the differences with other forms of Secular Buddhism.",
     icon: Globe,
     url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-a5cae3d4-1ce8-4676-9694-a326bc5e5d26"
   },
