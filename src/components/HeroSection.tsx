@@ -63,7 +63,7 @@ const HeroSection = () => {
         </h1>
 
         {/* Decorative Accent Line */}
-        <div className="w-16 h-px bg-accent mx-auto mb-8" />
+        <div className="w-16 h-px bg-white mx-auto mb-8" />
 
         {/* Main Tagline: Reduced to max-w-xl to rein in the width */}
         <p className="leading-relaxed max-w-2xl mx-auto text-primary-foreground/90 font-medium font-[sans]" 
