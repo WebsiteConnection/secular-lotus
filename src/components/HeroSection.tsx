@@ -65,7 +65,7 @@ const HeroSection = () => {
              textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
              lineHeight: '1.6'
            }}>
-          Moves beyond traditional Buddhist <span className="hidden md:inline"><br /></span> {/* Forced break for desktop only */} concepts to a direct affirmation of life.
+          Moves beyond traditional Buddhist <span className="hidden md:inline"><br /></span> {/* Forced break */} concepts to a direct affirmation of life.
         </p>
       </div>
     </section>
