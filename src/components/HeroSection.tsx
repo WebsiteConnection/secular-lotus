@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-lotus.jpg";
 
+const HERO_EN = {
+  taglinePart1: "Moves beyond traditional Buddhist",
+  taglinePart2: "concepts to a direct affirmation of life."
+} as const;
+
 const HeroSection = () => {
   return (
     /* Responsive Height Fix: 75% on mobile / 85% on desktop */
@@ -61,14 +66,15 @@ const HeroSection = () => {
         <div className="w-16 h-px bg-accent mx-auto mb-8" />
 
         {/* Main Tagline: Reduced to max-w-xl to rein in the width */}
-        <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/90 shadow-none font-medium font-[sans]" 
-           style={{ 
-             fontSize: 'var(--en-tagline-size)',
-             textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
-             lineHeight: '1.6'
-           }}>
-          Moves beyond traditional Buddhist <span className="hidden md:inline"><br /></span> {/* Forced break */} concepts to a direct affirmation of life.
-        </p>
+        <p className="leading-relaxed max-w-2xl mx-auto text-primary-foreground/90 font-medium font-[sans]" 
+    style={{ 
+     fontSize: 'var(--en-tagline-size)',
+     textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
+     lineHeight: '1.4' // Slightly tighter line height looks better for stacked text
+   }}>
+  <span className="block">{HERO_EN.taglinePart1}</span>
+  <span className="block">{HERO_EN.taglinePart2}</span>
+</p>
       </div>
     </section>
   );
