@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Lotus flower floating serenely on still water at dawn"
+          alt="A Lotus blossom on calm water at dawn."
           className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
       </div>
@@ -65,7 +65,7 @@ const HeroSection = () => {
              textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
              lineHeight: '1.6'
            }}>
-          Replaces traditional Buddhist concepts 
+          Moving beyond traditional Buddhist concepts 
           <span className="hidden md:inline"><br /></span> {/* Forced break for desktop only */}
           with a direct affirmation of life.
         </p>
