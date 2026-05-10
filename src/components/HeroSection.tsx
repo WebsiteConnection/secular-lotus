@@ -35,11 +35,13 @@ const HeroSection = () => {
             :root {
               --en-title-size: 2.8rem;
               --en-subtitle-size: 1.6rem;
+              --en-tagline-size: 1.25rem;
             }
             @media (min-width: 768px) {
               :root {
                 --en-title-size: 5rem;
                 --en-subtitle-size: 2.5rem;
+                --en-tagline-size: 1.6rem;
               }
             }
           `}</style>
@@ -61,7 +63,7 @@ const HeroSection = () => {
         {/* Main Tagline: Reduced to max-w-xl to rein in the width */}
         <p className="leading-relaxed max-w-xl mx-auto text-primary-foreground/90 shadow-none font-medium font-[sans]" 
            style={{ 
-             fontSize: 'var(--en-subtitle-size)',
+             fontSize: 'var(--en-tagline-size)',
              textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
              lineHeight: '1.6'
            }}>
