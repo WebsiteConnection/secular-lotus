@@ -8,13 +8,12 @@ const HERO_EN = {
 
 const HeroSection = () => {
   return (
-    /* Responsive Height Fix: 75% on mobile / 85% on desktop */
     <section className="relative min-h-[75vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden py-12 md:py-0">
       
       {/* LANGUAGE TOGGLE */}
       <a
         href="https://sezoku-hokke.vercel.app"
-        className="absolute top-5 right-6 z-20 font-body text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
+        className="absolute top-5 right-6 z-20 font-body text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide text-shadow-sm"
       >
         日本語
       </a>
@@ -31,7 +30,7 @@ const HeroSection = () => {
       {/* Content Container */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1
-          className="font-heading font-light tracking-wide text-primary-foreground mb-6 leading-tight"
+          className="font-heading font-light tracking-wide text-primary-foreground mb-6 leading-tight text-shadow-md"
           style={{
             fontSize: 'var(--en-title-size)',
           } as React.CSSProperties}>
@@ -49,32 +48,38 @@ const HeroSection = () => {
                 --en-tagline-size: 1.6rem;
               }
             }
+           .text-shadow-md {
+              text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 4px 20px rgba(0, 0, 0, 0.4);
+            }
+            .text-shadow-sm {
+              text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 4px 12px rgba(0, 0, 0, 0.6);
+            }
           `}</style>
 
           Secular Buddhism
           <span
-            className="block font-light mt-2 italic opacity-90"
+            className="block font-light mt-2 italic opacity-90 text-shadow-md"
             style={{
               fontSize: 'var(--en-subtitle-size)',
-              textShadow: '0px 2px 8px rgba(0,0,0,0.3)'
             }}>
             in the Lotus Sutra Tradition
           </span>
         </h1>
 
         {/* Decorative Accent Line */}
-        <div className="w-16 h-px bg-white mx-auto mb-8" />
+        <div className="w-16 h-px bg-white mx-auto mb-8 shadow-sm" />
 
-        {/* Main Tagline: Reduced to max-w-xl to rein in the width */}
-        <p className="leading-relaxed max-w-2xl mx-auto text-primary-foreground/90 font-medium font-[sans]" 
-    style={{ 
-     fontSize: 'var(--en-tagline-size)',
-     textShadow: '0px 2px 4px rgba(0,0,0,0.4)',
-     lineHeight: '1.4' // Slightly tighter line height looks better for stacked text
-   }}>
-  <span className="block">{HERO_EN.taglinePart1}</span>
-  <span className="block">{HERO_EN.taglinePart2}</span>
-</p>
+        {/* Main Tagline */}
+        <p 
+          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-medium font-[sans] text-shadow-sm" 
+          style={{ 
+            fontSize: 'var(--en-tagline-size)',
+            lineHeight: '1.4' 
+          }}
+        >
+          <span className="block">{HERO_EN.taglinePart1}</span>
+          <span className="block">{HERO_EN.taglinePart2}</span>
+        </p>
       </div>
     </section>
   );
