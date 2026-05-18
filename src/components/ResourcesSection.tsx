@@ -1,15 +1,60 @@
+import { FileText, Play, BookOpen, Heart, Globe, Award, Headphones } from "lucide-react";
+
+const resources = [
+  {
+    title: "Introductory Video",
+    description: "Watch an eight-minute slide presentation.",
+    icon: Play,
+    url: "https://drive.google.com/file/d/18NtS37Qcz4Xy9fScUj4Qsv80Kzjr_Wgz/view?usp=drive_link"
+  },
+  {
+    title: "\"An Ultimate from Immanence\"",
+    description: "Read the latest version of the journal article.",
+    icon: BookOpen,
+    url: "https://drive.google.com/file/d/1M2Kc9GLZWDJmpXlAOyyQ9h-qNlEe-tnY/view?usp=drive_link"
+  },
+  {
+    title: "Audio Narration",
+    description: "Listen to a reading of \"An Ultimate from Immanence.\"",
+    icon: Headphones,
+    url: "https://www.paper2audio.com/paper/An-Ultimate-from-Immanence-Lotus-Buddhism-Redefined-for-a-Secular-Worldview-Full-Text-e3bc4eb5-3910-42a6-913f-e7876037cb1b"
+  },
+  {
+    title: "Secular Prayers",
+    description: <>Consider how traditional liturgical practices can be adapted for a secular worldview.</>,
+    icon: Heart,
+    url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link"
+  },
+  {
+    title: "A New Form of Secular Buddhism",
+    description: "Narration explaining how these teachings differ from others in the movement.",
+    icon: Headphones,
+    url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-a5cae3d4-1ce8-4676-9694-a326bc5e5d26"
+  },
+  {
+    title: "Grawemeyer Nomination",
+    description: "Recommended for the 2027 Grawemeyer Award in Religion.",
+    icon: Award,
+    url: "https://drive.google.com/file/d/13UiGjXitxICfhJoHzKUo-LTWgTzaQOEn/view?usp=drive_link"
+  },
+  {
+    title: "The Secular Buddhist Movement",
+    description: "Explore the current state of Secular Buddhism as a whole.",
+    icon: Globe,
+    url: "https://secular-buddhism.vercel.app/"
+  }
+];
+
 const ResourcesSection = () => {
   return (
-    <section className="py-20 px-6 bg-background/50"> {/* Added subtle background tint */}
+    <section className="py-20 px-6 bg-background/50">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
           Explore the Teachings
         </h2>
         <br></br>   
-        
-        <div className="grid gap-6 md:grid-cols-2"> {/* Increased gap for better readability */}
+        <div className="grid gap-6 md:grid-cols-2">
           {resources.map((resource, index) => {
-            // Check if this is the last item in an odd-numbered list (index 6 is the 7th item)
             const isLastOdd = index === resources.length - 1 && resources.length % 2 !== 0;
 
             return (
@@ -18,7 +63,6 @@ const ResourcesSection = () => {
                 href={resource.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                /* Dynamically span and center the card if it's the lone 7th item */
                 className={`group flex items-start gap-4 p-6 rounded-lg bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 ${
                   isLastOdd ? "md:col-span-2 md:max-w-md md:mx-auto w-full" : ""
                 }`}
