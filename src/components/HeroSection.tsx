@@ -12,20 +12,20 @@ const HeroSection = () => {
       
       {/* LANGUAGE TOGGLE */}
       <a
-  href="https://sezoku-hokke.vercel.app"
-  className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
->
+        href="https://sezoku-hokke.vercel.app"
+        className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
+      >
         日本語
       </a>
 
-     {/* Background Image and Enhanced Gradient Overlay (No Text Shadows Needed) */}
-<div className="absolute inset-0">
-  <img
-    src={heroImage}
-    alt="A Lotus blossom on calm water at dawn."
-    className="w-full h-full object-cover" />
-  <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
-</div>
+      {/* Background Image and Original Seamless Bottom-Fade Overlay */}
+      <div className="absolute inset-0">
+        <img
+          src={heroImage}
+          alt="A Lotus blossom on calm water at dawn."
+          className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
+      </div>
 
       {/* Content Container */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -47,12 +47,6 @@ const HeroSection = () => {
                 --en-subtitle-size: 2.5rem;
                 --en-tagline-size: 1.6rem;
               }
-            }
-           .text-shadow-md {
-              text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 4px 20px rgba(0, 0, 0, 0.4);
-            }
-            .text-shadow-sm {
-              text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9), 0 4px 12px rgba(0, 0, 0, 0.6);
             }
           `}</style>
 
