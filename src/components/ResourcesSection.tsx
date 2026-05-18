@@ -26,9 +26,8 @@ const resources = [
     url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link"
   },
   {
-    title: "Secular Buddhist Network Article",
-    description: "Narration explaining the differences with other forms of Secular Buddhism.",
-    icon: Globe,
+    title: "A novel form of Secular Buddhism",
+    description: "Narration explaining how these teachings differ from others in the movement.", 
     url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-a5cae3d4-1ce8-4676-9694-a326bc5e5d26"
   },
   {
@@ -38,8 +37,8 @@ const resources = [
     url: "https://drive.google.com/file/d/13UiGjXitxICfhJoHzKUo-LTWgTzaQOEn/view?usp=drive_link"
   },
   {
-    title: "Other Forms of Secular Buddhism",
-    description: "There is a movement within Buddhism to demystify all of its teachings.",
+    title: "Other schools of Secular Buddhism",
+    description: "Examine the current state of the secular Buddhist movement as a whole.",
     icon: Globe,
     url: "https://secular-buddhism.vercel.app/"
   }
