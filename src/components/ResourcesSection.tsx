@@ -36,6 +36,12 @@ const resources = [
     description: "Recommended for the 2027 Grawemeyer Award in Religion.",
     icon: Award,
     url: "https://drive.google.com/file/d/13UiGjXitxICfhJoHzKUo-LTWgTzaQOEn/view?usp=drive_link"
+  },
+  {
+    title: "Other Forms of Secular Buddhism",
+    description: "There is an emerging movement within Buddhism to demystify all of its teachings.",
+    icon: Globe,
+    url: "https://secular-buddhism.vercel.app/"
   }
 ];
 
