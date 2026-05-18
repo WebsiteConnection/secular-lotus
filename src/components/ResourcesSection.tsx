@@ -49,7 +49,7 @@ const ResourcesSection = () => {
   return (
     <section className="py-20 px-6 bg-background/50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
+        <h2 className="font-heading text-3xl md:text-4xl font-light text-neutral-900 text-center mb-4">
           Evaluate the Ethics
         </h2>
         <br></br>   
@@ -71,10 +71,10 @@ const ResourcesSection = () => {
                   <resource.icon className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-heading text-lg font-medium mb-1 group-hover:text-primary transition-colors">
+                  <h3 className="font-heading text-lg font-medium text-neutral-900 mb-1 group-hover:text-primary transition-colors">
                     {resource.title}
                   </h3>
-                  <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                  <p className="font-body text-sm text-neutral-900 leading-relaxed">
                     {resource.description}
                   </p>
                 </div>
