@@ -50,7 +50,7 @@ const ResourcesSection = () => {
     <section className="py-20 px-6 bg-background/50">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-4">
-          Explore the Teachings
+          Evaluate the Ethics
         </h2>
         <br></br>   
         <div className="grid gap-6 md:grid-cols-2">
