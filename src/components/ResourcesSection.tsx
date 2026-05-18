@@ -26,7 +26,7 @@ const resources = [
     url: "https://drive.google.com/file/d/1ixOBFVsgtR3TXvIBuMtoQQvQu1PrPR76/view?usp=drive_link"
   },
   {
-    title: "A Novel Form of Secular Buddhism",
+    title: "A New Form of Secular Buddhism",
     description: "Narration explaining how these teachings differ from others in the movement.",
     icon: Headphones,
     url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-a5cae3d4-1ce8-4676-9694-a326bc5e5d26"
@@ -38,8 +38,8 @@ const resources = [
     url: "https://drive.google.com/file/d/13UiGjXitxICfhJoHzKUo-LTWgTzaQOEn/view?usp=drive_link"
   },
   {
-    title: "Other Schools of Secular Buddhism",
-    description: "Explore the current state of the secular Buddhist movement as a whole.",
+    title: "The Secular Buddhist Movement",
+    description: "Explore the current state of Secular Buddhism as a whole.",
     icon: Globe,
     url: "https://secular-buddhism.vercel.app/"
   }
