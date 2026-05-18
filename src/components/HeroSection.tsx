@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* LANGUAGE TOGGLE */}
       <a
         href="https://sezoku-hokke.vercel.app"
-        className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
+        className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/90 hover:text-primary-foreground transition-colors tracking-wide"
       >
         日本語
       </a>
