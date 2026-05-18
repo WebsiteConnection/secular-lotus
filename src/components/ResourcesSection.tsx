@@ -39,7 +39,7 @@ const resources = [
   },
   {
     title: "Other Forms of Secular Buddhism",
-    description: "There is an emerging movement within Buddhism to demystify all of its teachings.",
+    description: "There is a movement within Buddhism to demystify all of its teachings.",
     icon: Globe,
     url: "https://secular-buddhism.vercel.app/"
   }
