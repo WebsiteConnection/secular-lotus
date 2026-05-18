@@ -38,7 +38,7 @@ const resources = [
   },
   {
     title: "Other schools of Secular Buddhism",
-    description: "Examine the current state of the secular Buddhist movement as a whole.",
+    description: "Explore the current state of the secular Buddhist movement as a whole.",
     icon: Globe,
     url: "https://secular-buddhism.vercel.app/"
   }
