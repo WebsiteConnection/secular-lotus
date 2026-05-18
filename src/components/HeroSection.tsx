@@ -13,24 +13,24 @@ const HeroSection = () => {
       {/* LANGUAGE TOGGLE */}
       <a
   href="https://sezoku-hokke.vercel.app"
-  className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide text-shadow-sm"
+  className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/70 hover:text-primary-foreground transition-colors tracking-wide"
 >
         日本語
       </a>
 
-      {/* Background Image and Gradient Overlay */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="A Lotus blossom on calm water at dawn."
-          className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
-      </div>
+     {/* Background Image and Enhanced Gradient Overlay (No Text Shadows Needed) */}
+<div className="absolute inset-0">
+  <img
+    src={heroImage}
+    alt="A Lotus blossom on calm water at dawn."
+    className="w-full h-full object-cover" />
+  <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
+</div>
 
       {/* Content Container */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1
-          className="font-heading font-light tracking-wide text-primary-foreground mb-6 leading-tight text-shadow-md"
+          className="font-heading font-light tracking-wide text-primary-foreground mb-6 leading-tight"
           style={{
             fontSize: 'var(--en-title-size)',
           } as React.CSSProperties}>
@@ -58,7 +58,7 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            className="block font-light mt-2 italic opacity-90 text-shadow-md"
+            className="block font-light mt-2 italic opacity-90"
             style={{
               fontSize: 'var(--en-subtitle-size)',
             }}>
@@ -67,11 +67,11 @@ const HeroSection = () => {
         </h1>
 
         {/* Decorative Accent Line */}
-        <div className="w-16 h-px bg-white mx-auto mb-8 shadow-sm" />
+        <div className="w-16 h-px bg-white mx-auto mb-8" />
 
         {/* Main Tagline */}
         <p 
-          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-medium font-[sans] text-shadow-sm" 
+          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-medium font-[sans]" 
           style={{ 
             fontSize: 'var(--en-tagline-size)',
             lineHeight: '1.4' 
