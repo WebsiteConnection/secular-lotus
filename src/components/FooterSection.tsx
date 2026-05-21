@@ -22,7 +22,7 @@ const FooterSection = () => {
           </a>
         </div>
         <p className="text-sm text-muted-foreground font-body">
-          Last update: April 24, 2026
+          Last update: May 20, 2026
         </p>
       </div>
     </footer>);
