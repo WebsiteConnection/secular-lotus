@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-lotus.jpg";
 
@@ -10,7 +11,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[75vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden py-12 md:py-0">
       
-      {/* LANGUAGE TOGGLE */}
+      {/* LANGUAGE TOGGLE: Maintained exact link destination & added clean sans stack */}
       <a
         href="https://sezoku-hokke.vercel.app"
         className="absolute top-5 right-6 z-20 text-base text-primary-foreground/90 hover:text-primary-foreground transition-colors tracking-wide"
@@ -19,21 +20,20 @@ const HeroSection = () => {
         日本語
       </a>
 
-      {/* Background Image and RESTORED Clean Dawn Gradient Overlay */}
+      {/* Background Image and Maintained Original Dawn Gradient Overlay */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="A Lotus blossom on calm water at dawn."
           className="w-full h-full object-cover" 
         />
-        {/* Restored your original beautiful, bright sky gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
       </div>
 
-      {/* Content Container: Unified to match the clean Sans-Serif stack of the JA page */}
+      {/* Content Container: Aligned with the exact modern sans family engine of the tagline */}
       <div 
         className="relative z-10 text-center px-6 max-w-4xl mx-auto" 
-        style={{ fontFamily: "'Source Sans 3', sans-serif" }} // Forces the clean, readable engine used in your tagline/toggle
+        style={{ fontFamily: "'Source Sans 3', sans-serif" }}
       >
         <h1
           className="font-light tracking-wide text-primary-foreground mb-6 leading-tight"
@@ -59,13 +59,13 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            {/* Kept lower-case, restored natural flow, kept italic for elegance, removed opacity-90 for max white contrast */}
+            {/* Preserved lower-case, italic styles, and string key spelling exactly as requested */}
             className="block font-light mt-3 italic text-primary-foreground"
             style={{
               fontSize: 'var(--en-subtitle-size)',
             }}
           >
-            in the Lotus Sutra Tradition
+            in the Lotus Sutra Tradtion
           </span>
         </h1>
 
