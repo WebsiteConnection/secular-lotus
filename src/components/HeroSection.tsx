@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[75vh] md:min-h-[85vh] flex items-center justify-center overflow-hidden py-12 md:py-0">
       
-      {/* LANGUAGE TOGGLE: Maintained exact link destination & added clean sans stack */}
+      {/* LANGUAGE TOGGLE */}
       <a
         href="https://sezoku-hokke.vercel.app"
         className="absolute top-5 right-6 z-20 text-base text-primary-foreground/90 hover:text-primary-foreground transition-colors tracking-wide"
@@ -20,13 +20,14 @@ const HeroSection = () => {
         日本語
       </a>
 
-      {/* Background Image and Maintained Original Dawn Gradient Overlay */}
+      {/* Background Image and ORIGINAL Beautiful Bright Sky Gradient */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="A Lotus blossom on calm water at dawn."
           className="w-full h-full object-cover" 
         />
+        {/* Strictly matches your original seamless, bright sky exposure */}
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
       </div>
 
@@ -59,13 +60,13 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            {/* Preserved lower-case, italic styles, and string key spelling exactly as requested */}
+            {/* Preserved lower-case, natural typography flow, and perfectly corrected spelling */}
             className="block font-light mt-3 italic text-primary-foreground"
             style={{
               fontSize: 'var(--en-subtitle-size)',
             }}
           >
-            in the Lotus Sutra Tradtion
+            in the Lotus Sutra Tradition
           </span>
         </h1>
 
