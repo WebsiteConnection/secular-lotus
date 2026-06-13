@@ -20,14 +20,13 @@ const HeroSection = () => {
         日本語
       </a>
 
-      {/* Background Image and ORIGINAL Beautiful Bright Sky Gradient */}
+      {/* Background Image and Original Beautiful Bright Sky Gradient */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="A Lotus blossom on calm water at dawn."
           className="w-full h-full object-cover" 
         />
-        {/* Strictly matches your original seamless, bright sky exposure */}
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
       </div>
 
@@ -60,7 +59,6 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            {/* Preserved lower-case, natural typography flow, and corrected spelling */}
             className="block font-light mt-3 italic text-primary-foreground"
             style={{
               fontSize: 'var(--en-subtitle-size)',
