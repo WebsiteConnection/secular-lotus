@@ -13,33 +13,32 @@ const HeroSection = () => {
       {/* LANGUAGE TOGGLE */}
       <a
         href="https://sezoku-hokke.vercel.app"
-        className="absolute top-5 right-6 z-20 font-body text-base text-primary-foreground/90 hover:text-primary-foreground transition-colors tracking-wide"
+        className="absolute top-5 right-6 z-20 text-base text-primary-foreground/90 hover:text-primary-foreground transition-colors tracking-wide"
+        style={{ fontFamily: "'Source Sans 3', sans-serif" }}
       >
         日本語
       </a>
 
-      {/* Background Image and Enhanced Contrast Overlay */}
+      {/* Background Image and RESTORED Clean Dawn Gradient Overlay */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="A Lotus blossom on calm water at dawn."
           className="w-full h-full object-cover" 
         />
-        {/* Darkened the middle overlay zone to instantly make white text pop against the image */}
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/50 via-foreground/60 to-background" />
+        {/* Restored your original beautiful, bright sky gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
       </div>
 
-      {/* Content Container */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      {/* Content Container: Unified to match the clean Sans-Serif stack of the JA page */}
+      <div 
+        className="relative z-10 text-center px-6 max-w-4xl mx-auto" 
+        style={{ fontFamily: "'Source Sans 3', sans-serif" }} // Forces the clean, readable engine used in your tagline/toggle
+      >
         <h1
-          className="font-heading font-light text-primary-foreground mb-6 leading-tight"
+          className="font-light tracking-wide text-primary-foreground mb-6 leading-tight"
           style={{
             fontSize: 'var(--en-title-size)',
-            color: '#ffffff',
-            // Forces a dark backdrop drop-shadow so light font weights stay perfectly sharp
-            textShadow: '0px 4px 15px rgba(0, 0, 0, 0.75), 0px 2px 4px rgba(0, 0, 0, 0.5)',
-            // Spaces out the letters slightly to alter the visual shape of the title
-            letterSpacing: '0.08em',
           } as React.CSSProperties}
         >
           
@@ -59,20 +58,14 @@ const HeroSection = () => {
           `}</style>
 
           Secular Buddhism
-          
           <span
-            className="block font-light mt-4 not-italic"
+            {/* Kept lower-case, restored natural flow, kept italic for elegance, removed opacity-90 for max white contrast */}
+            className="block font-light mt-3 italic text-primary-foreground"
             style={{
               fontSize: 'var(--en-subtitle-size)',
-              color: '#ffffff',
-              // Switched to uppercase to give it a clean, distinct layout texture separate from the tagline
-              textTransform: 'uppercase',
-              // Expanded letter-spacing to give it an elegant, editorial presence
-              letterSpacing: '0.2em',
-              textShadow: '0px 2px 8px rgba(0, 0, 0, 0.8)',
             }}
           >
-            in the Lotus Sutra Tradtion
+            in the Lotus Sutra Tradition
           </span>
         </h1>
 
@@ -81,7 +74,7 @@ const HeroSection = () => {
 
         {/* Main Tagline */}
         <p 
-          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-medium font-[sans]" 
+          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-medium" 
           style={{ 
             fontSize: 'var(--en-tagline-size)',
             lineHeight: '1.4' 
