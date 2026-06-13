@@ -30,9 +30,11 @@ const HeroSection = () => {
       {/* Content Container */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1
-          className="font-heading font-light tracking-wide text-primary-foreground mb-6 leading-tight"
+          {/* Changed font-light to font-bold, tracking-wide to tracking-wider */}
+          className="font-heading font-bold tracking-wider text-primary-foreground mb-6 leading-tight"
           style={{
             fontSize: 'var(--en-title-size)',
+            textShadow: '0 2px 10px rgba(0,0,0,0.3)', // Keeps light text distinct from background image
           } as React.CSSProperties}>
           
           <style>{`
@@ -52,7 +54,8 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            className="block font-light mt-2 italic opacity-90"
+            {/* Changed font-light to font-medium, removed opacity-90, fixed typo */}
+            className="block font-medium mt-3 italic tracking-wide"
             style={{
               fontSize: 'var(--en-subtitle-size)',
             }}>
