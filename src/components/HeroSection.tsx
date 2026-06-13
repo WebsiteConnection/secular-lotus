@@ -52,7 +52,7 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            className="block font-light mt-2 italic opacity-90"
+            className="block font-medium mt-2 italic opacity-90"
             style={{
               fontSize: 'var(--en-subtitle-size)',
             }}>
