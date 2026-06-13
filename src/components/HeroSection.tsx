@@ -18,23 +18,25 @@ const HeroSection = () => {
         日本語
       </a>
 
-      {/* Background Image and Original Seamless Bottom-Fade Overlay */}
+      {/* Background Image and Enhanced Contrast Overlay */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
           alt="A Lotus blossom on calm water at dawn."
           className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-background" />
+        {/* CHANGED: Swapped via-foreground/20 to via-foreground/60 to drastically darken the area directly behind your text */}
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/50 via-foreground/60 to-background" />
       </div>
 
       {/* Content Container */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1
-          {/* Changed font-light to font-bold, tracking-wide to tracking-wider */}
-          className="font-heading font-bold tracking-wider text-primary-foreground mb-6 leading-tight"
+          {/* CHANGED: Added tracking-widest for distinct structural presence */}
+          className="font-heading font-light tracking-widest text-primary-foreground mb-6 leading-tight"
           style={{
             fontSize: 'var(--en-title-size)',
-            textShadow: '0 2px 10px rgba(0,0,0,0.3)', // Keeps light text distinct from background image
+            {/* CHANGED: Aggressive multi-layered shadow to force light fonts to pop */}
+            textShadow: '0 2px 4px rgba(0,0,0,0.6), 0 4px 20px rgba(0,0,0,0.4)',
           } as React.CSSProperties}>
           
           <style>{`
@@ -54,12 +56,12 @@ const HeroSection = () => {
 
           Secular Buddhism
           <span
-            {/* Changed font-light to font-medium, removed opacity-90, fixed typo */}
-            className="block font-medium mt-3 italic tracking-wide"
+            {/* CHANGED: Removed opacity entirely, changed to uppercase, and added tracking-widest */}
+            className="block font-light mt-4 uppercase tracking-[0.2em] not-italic text-white"
             style={{
               fontSize: 'var(--en-subtitle-size)',
             }}>
-            in the Lotus Sutra Tradition
+            in the Lotus Sutra Tradtion
           </span>
         </h1>
 
