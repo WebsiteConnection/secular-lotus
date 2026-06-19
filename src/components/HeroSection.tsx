@@ -73,7 +73,7 @@ const HeroSection = () => {
 
         {/* Main Tagline */}
         <p 
-          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-medium" 
+          className="leading-relaxed max-w-2xl mx-auto text-primary-foreground font-normal" 
           style={{ 
             fontSize: 'var(--en-tagline-size)',
             lineHeight: '1.4' 
