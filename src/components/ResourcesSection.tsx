@@ -29,7 +29,7 @@ const resources = [
     title: "A New Form of Secular Buddhism",
     description: "Narration explaining how these teachings differ from others in the movement.",
     icon: Headphones,
-    url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-a5cae3d4-1ce8-4676-9694-a326bc5e5d26"
+    url: "https://www.paper2audio.com/paper/A-Secular-Buddhism-Based-on-the-Lotus-Sutra-Full-Text-5ba95073-9000-43e8-a1a9-b70028c3288e"
   },
   {
     title: "Grawemeyer Nomination",
