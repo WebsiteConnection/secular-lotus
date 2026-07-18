@@ -17,7 +17,7 @@ const resources = [
     title: "Audio Narration",
     description: "Listen to a reading of \"An Ultimate from Immanence.\"",
     icon: Headphones,
-    url: "https://www.paper2audio.com/paper/An-Ultimate-from-Immanence-Lotus-Buddhism-Redefined-for-a-Secular-Worldview-Full-Text-01423426-0d77-427d-8bf6-a9a9e831ca95"
+    url: "https://www.paper2audio.com/paper/An-Ultimate-from-Immanence-Lotus-Buddhism-Redefined-for-a-Secular-Worldview-Full-Text-ee1044d4-d7aa-4676-ac15-7fa38ea98640"
   },
   {
     title: "Secular Prayers",
